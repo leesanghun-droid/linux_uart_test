@@ -1,9 +1,0 @@
-{
-    "editor.fastScrollSensitivity": 1,
-    "terminal.integrated.fastScrollSensitivity": 1,
-    "output.smartScroll.enabled": false,
-    "editor.scrollBeyondLastColumn": 1,
-    "editor.smoothScrolling": true,
-    "workbench.list.smoothScrolling": true,
-    "editor.mouseWheelZoom": true
-}

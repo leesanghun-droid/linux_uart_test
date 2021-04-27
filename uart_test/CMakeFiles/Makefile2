@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lsh/Desktop/cross_test1
+CMAKE_SOURCE_DIR = /home/lsh/Desktop/linux_uart_test/uart_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lsh/Desktop/cross_test1
+CMAKE_BINARY_DIR = /home/lsh/Desktop/linux_uart_test/uart_test
 
 #=============================================================================
 # Target rules for target CMakeFiles/main_x86_64.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/lsh/Desktop/cross_test1
 CMakeFiles/main_x86_64.dir/all:
 	$(MAKE) -f CMakeFiles/main_x86_64.dir/build.make CMakeFiles/main_x86_64.dir/depend
 	$(MAKE) -f CMakeFiles/main_x86_64.dir/build.make CMakeFiles/main_x86_64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsh/Desktop/cross_test1/CMakeFiles --progress-num=1,2 "Built target main_x86_64"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles --progress-num=1,2 "Built target main_x86_64"
 .PHONY : CMakeFiles/main_x86_64.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/main_x86_64.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_x86_64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/cross_test1/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_x86_64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/cross_test1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles 0
 .PHONY : CMakeFiles/main_x86_64.dir/rule
 
 # Convenience name for target.

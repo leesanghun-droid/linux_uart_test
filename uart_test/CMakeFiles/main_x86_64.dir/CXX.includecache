@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lsh/Desktop/cross_test1/main.cpp
+/home/lsh/Desktop/linux_uart_test/uart_test/main.cpp
 stdio.h
 -
 stdlib.h

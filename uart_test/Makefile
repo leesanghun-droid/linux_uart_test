@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lsh/Desktop/cross_test1
+CMAKE_SOURCE_DIR = /home/lsh/Desktop/linux_uart_test/uart_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lsh/Desktop/cross_test1
+CMAKE_BINARY_DIR = /home/lsh/Desktop/linux_uart_test/uart_test
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/cross_test1/CMakeFiles /home/lsh/Desktop/cross_test1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles /home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/cross_test1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/Desktop/linux_uart_test/uart_test/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
